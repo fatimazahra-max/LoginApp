@@ -1,0 +1,174 @@
+*{
+
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+body{
+  background: linear-gradient(to right,rgb(231, 203, 228),#d12297);
+}
+
+.container{
+  background-color: rgb(255, 255, 255);
+  width: 450px;
+  padding: 1.5rem;
+  margin: 50px auto;
+  border-radius: 10px;
+  box-shadow:00px 20px 35px black ;
+}
+form{
+
+  margin:0 2rem
+  
+}
+.form-title{
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-align:center;
+  padding:1.3 rem;
+  margin-bottom: 0.4rem;
+}
+input{
+  color:inherit;
+  width: 100%;
+  background-color: transparent;
+  border:none;
+  border-bottom: 1px solid;
+  padding-left: 1.5rem;
+  font-size: 15px;
+}
+
+input{
+  color:inherit;
+  width:100%;
+  background-color:transparent;
+  border:none;
+  border-bottom:1px solid #757575;
+  padding-left:1.5rem;
+  font-size:15px;
+}
+.input-groupe{
+  padding:1% 0;
+  position:relative;
+
+}
+.input-groupe i{
+  position:absolute;
+  color:black;
+}
+input:focus{
+  background-color: transparent;
+  outline:transparent;
+  border-bottom:2px solid hsl(327,90%,28%);
+}
+
+.recover{
+  text-align:right;
+  font-size:1rem;
+  margin-bottom:1rem;
+
+}
+.recover a{
+  text-decoration:none;
+  color:#d12297;
+}
+.recover a:hover{
+  color:#07001f;
+  text-decoration:underline;
+}
+.btn{
+  font-size:1.1rem;
+  padding:8px 0;
+  border-radius:5px;
+  width:100%;
+  background:#d12297;
+  color:white;
+  cursor:pointer;
+  transition:0.5s;
+}
+.btn:hover{
+  background:#07001f;
+}
+.or{
+  font-size:1.1rem;
+  margin-top:0.5rem;
+  text-align:center;
+}
+.icons{
+  text-align:center;
+}
+.icons i{
+  color:#d12297;
+  padding:0.8rem 1.5rem;
+  border-radius:10px;
+  font-size:1.5rem;
+  cursor:pointer;
+  border:2px solid #dfe9f5;
+  margin:0 15px;
+  transition:0.5s;
+}
+.icons i:hover{
+  background:#07001f;
+  font-size:1.6rem;
+  border:2px solid rgb(125,125,235);
+}
+.links{
+  display:flex;
+  justify-content:space-around;
+  padding:0 4rem;
+  margin-top:0.9rem;
+  font-weight:bold;
+}
+button{
+  color:#d12297;
+  border:none;
+  background-color:transparent;
+  font-size:1rem;
+  font-weight:bold;
+}
+button:hover{
+  text-decoration:underline;
+  color:#07001f;
+}
+.success {
+  background-color: rgb(43, 155, 18);
+  border-radius: 10px;
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.5); /* Softer shadow */
+  width: 100%; /* Full width for responsiveness */
+  max-width: 300px; /* Maximum width */
+  height: auto; /* Auto height to fit content */
+  margin-top: 1rem; /* Add some spacing above the success message */
+  padding: 20px;
+  color: white; /* Text color for better contrast */
+  transition: transform 0.2s; /* Smooth transition */
+}
+
+
+.success p {
+  text-align: center;
+}
+  
+
+
+.success:hover {
+  transform: scale(1.05); /* Slightly enlarge on hover */
+}
+
+.unsuccessful {
+  background-color: rgb(165, 11, 11);
+  border-radius: 10px;
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.5); /* Softer shadow */
+  width: 100%; /* Full width for responsiveness */
+  max-width: 500px; /* Maximum width */
+  padding: 1.5rem;
+  margin: 50px auto;
+  color: white; /* Text color for better contrast */
+  transition: transform 0.2s; /* Smooth transition */
+}
+
+.unsuccessful:hover {
+  transform: scale(1.05); /* Slightly enlarge on hover */
+}
